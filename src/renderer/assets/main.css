@@ -1,0 +1,55 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+
+  background-color: slategray;
+}
+
+.root {
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.keyboard {
+  font-family: 'Courier New', Courier, monospace;
+  border: #252424 1px solid;
+  border-radius: 5px;
+  background-color: darkgray;
+  padding: 3px;
+  padding-top: 5px;
+}
+
+.sound {
+  display: flex;
+  justify-content: space-between;
+  border: black solid 2px;
+  margin: 10px;
+  padding-left: 20px;
+}
+
+.name {
+  color: yellowgreen;
+}
+
+.crit-key {
+  display: inline-block;
+  text-align: center;
+  min-width: 66px;
+
+  color: darkred;
+}
+
+.divider {
+  width: 100vw;
+  border-top: black solid 2px;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
